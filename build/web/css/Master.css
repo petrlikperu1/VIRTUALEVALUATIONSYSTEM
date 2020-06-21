@@ -1,0 +1,433 @@
+A:LINK {
+	text-decoration : none ;
+	color : blue ;
+	font : 8pt Arial, Helvetica, Verdana ;
+}
+
+A:VISITED {
+	text-decoration : none ;
+	color : blue ;
+	font : 8pt Arial, Helvetica, Verdana ;
+}
+
+A:HOVER {
+	text-decoration : none ;
+	color : blue;
+	font : 8pt Arial, Helvetica, Verdana ;
+}
+
+A:ACTIVE {
+	text-decoration : none ;
+	color : blue ;
+	font : 8pt Arial, Helvetica, Verdana ;
+}
+
+textarea {
+overflow: hidden;
+}
+
+BODY
+{
+	COLOR: black;
+	FONT-FAMILY: Arial;
+	background-color: #386FB3;
+
+}
+
+TH {
+	background-color: #E7E4E6;
+	font-weight: bold;
+	/*color: RED;*/
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 7.5pt;
+	text-align: left;
+	text-decoration: underline;
+}
+
+
+.TH {
+	background-color: #009933;
+	font-weight: bold;
+	color: #ffffff;
+	font-family: Tahoma;
+	font-size: 7.5pt;
+	text-align: center;
+	text-decoration: none;
+}
+
+
+.TH1 {
+	background-color: #003399;
+	font-weight: bold;
+	color: #FFFFFF;
+	font-family: Tahoma;
+	font-size: 7.5pt;
+	text-align: center;
+	text-decoration: none; 
+}
+.body1 
+{
+	background-color: #EEEEEE;
+	font-size: 8px;
+
+}
+
+.body2 
+{
+	background-color: WHITE;
+}
+
+
+
+/* Input Text */
+
+.input_text
+{
+    BACKGROUND-COLOR: #ffffff;
+    BORDER-BOTTOM: #336699 1px solid;
+    BORDER-LEFT: #336699 1px solid;
+    BORDER-RIGHT: #336699 1px solid;
+    BORDER-TOP: #336699 1px solid;
+    COLOR: #30608f;
+    FONT-FAMILY: Verdana;
+    FONT-SIZE: 8pt
+}
+
+.input_text_combo 
+{
+	BORDER-BOTTOM: #808080 1px solid;
+	BORDER-LEFT: #808080 1px solid;
+	BORDER-RIGHT: #808080 1px solid;
+	BORDER-TOP: #808080 1px solid;
+	COLOR: #000066;
+	FONT-FAMILY: Tahoma;
+	FONT-SIZE: 12px;
+	font-weight: normal;
+	font-style: normal;
+	line-height: normal;
+	font-variant: normal;
+	height: 18px;
+}
+
+.input_text_combo2 
+{
+	BORDER-BOTTOM: #808080 1px solid;
+	BORDER-LEFT: #808080 1px solid;
+	BORDER-RIGHT: #808080 1px solid;
+	BORDER-TOP: #808080 1px solid;
+	COLOR: #000066;
+	FONT-FAMILY: Tahoma;
+	FONT-SIZE: 12px;
+	font-weight: normal;
+	font-style: normal;
+	line-height: normal;
+	font-variant: normal;
+	height: 100px;
+}
+
+
+.input_text_r /* input number AAV */
+{
+    BACKGROUND-COLOR: #ffffff;
+    BORDER-BOTTOM: #808080 1px solid;
+    BORDER-LEFT: #808080 1px solid;
+    BORDER-RIGHT: #808080 1px solid;
+    BORDER-TOP: #808080 1px solid;
+    COLOR: black;
+    FONT-FAMILY: Verdana;
+    FONT-SIZE: 8pt;
+    text-align: RIGHT;
+}
+/* Textos */
+
+.text_normal
+{
+	COLOR: BLACK;
+	FONT-FAMILY: Tahoma;
+	FONT-SIZE: 7.5pt;
+    FONT-WEIGHT: bold;
+}
+
+
+.text_normal_1
+{
+	COLOR: #000099;
+	FONT-FAMILY: Tahoma;
+	FONT-SIZE: 7.5pt;
+    FONT-WEIGHT: bold;
+}
+
+
+.text_mensaje
+{
+	COLOR: RED;
+	FONT-FAMILY: Tahoma;
+	FONT-SIZE: 7.5pt	           
+}
+
+
+.menu
+{
+	COLOR: #808080;
+	FONT-FAMILY: Tahoma;
+    FONT-SIZE: 8pt;
+	FONT-WEIGHT:bold;
+		           
+}
+
+.text_menu
+{
+    FONT-FAMILY: Verdana, Helvetica, sans-serif;
+    FONT-SIZE: 8pt;
+    COLOR: NAVY
+}
+
+
+
+.fila_impar /* ex fila */
+{
+	COLOR: #000066;
+	BACKGROUND-COLOR: white;
+	FONT-FAMILY: Tahoma;
+	FONT-SIZE: 8pt;
+	TEXT-ALIGN: left;
+	text-transform: none;
+
+}
+
+
+.fila_par /* ex fila1 */
+{
+	COLOR: #000066;
+	FONT-FAMILY: Tahoma;
+	BACKGROUND-COLOR:#D5F7FF;
+	FONT-SIZE: 8pt;
+	TEXT-ALIGN: left;
+	text-transform: none;
+	font-style: normal;
+
+}
+
+
+.text_fila_3 /* ex fila1 */
+{
+	COLOR: white;
+	FONT-FAMILY: Tahoma;
+    BACKGROUND-COLOR:red;
+	FONT-SIZE: 7.5pt;
+	TEXT-ALIGN: center
+}
+
+
+/* USADO */
+.text_izq_columna/* ex fila */
+{
+    TEXT-ALIGN: left;
+}
+
+
+/* USADO */
+.text_der_columna/* ex fila */
+{
+    TEXT-ALIGN: right;
+}
+
+
+/* Titulos */
+
+.text_titulo_1 /* ex titulo3 */
+{
+	FONT-FAMILY: Tahoma;
+	FONT-SIZE: 7.5pt;
+	COLOR: "ff0000";
+	TEXT-DECORATION: none;
+}
+
+.text_titulo_2 /* ex titulo4 */
+{
+	COLOR: #000000;
+	FONT-FAMILY: Tahoma;
+	FONT-SIZE: 8pt;
+	FONT-WEIGHT: bold;
+	TEXT-ALIGN: left;
+	
+}
+
+
+
+.text_titulo_3 /* ex titulo4 */
+{
+	COLOR: black;
+	FONT-FAMILY: Tahoma;
+	FONT-SIZE: 7.5pt;
+	FONT-WEIGHT: bold
+	
+}
+ 
+.text_titulo_4 /* ex titulo2 (no usado) */
+{
+	COLOR: #000000;
+	FONT-FAMILY: Tahoma;
+	FONT-SIZE: 7.5pt;
+	FONT-WEIGHT: bold
+}
+
+.text_titulo_5 /* ex titulo2 (no usado) */
+{
+	COLOR: black;
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+	FONT-SIZE: 7.5pt;
+	FONT-WEIGHT: bold
+}
+
+.text_titulo_6 /* ex titulo 3A (no usado) */
+{
+	COLOR: black;
+	FONT-FAMILY: Arial;
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 8pt
+}
+
+/* Tablas */
+
+.tabla_1 /* ex tabla1*/
+{
+	BACKGROUND-COLOR: WHITE;
+}
+
+
+.tabla_3 /* ex tabla */
+{
+	BACKGROUND-COLOR: #8EEE9F;
+}
+
+
+.tabla_4  {
+	BACKGROUND-COLOR: "#c0c0c0";
+	TEXT-ALIGN: center
+}
+
+
+
+.text_titulo_cabecera
+{
+    COLOR: #808080;
+	FONT-FAMILY: Arial;
+	FONT-SIZE: 18pt;
+	
+}	
+.texttotales {
+	font-size: 10px;
+	font-style: normal;
+	color: #000099;
+	line-height: normal;
+	text-decoration: overline;
+	font-weight: bold;
+}
+.FondoTabla {
+	border: thin outset;
+
+
+}
+.tituloFormulario {
+	font-family: Tahoma;
+	font-size: 11px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: bold;
+	color: #000066;
+	text-transform: capitalize;
+
+}
+.boton {
+	font-size: 10px;
+	font-family: Tahoma;
+	text-transform: none;
+	text-align: center;
+	font-weight: bold;
+	font-variant: normal;
+	color: #000066;
+
+
+
+
+
+}
+.tituloTabla {
+
+	font-size: 11px;
+	color: #FFFFFF;
+	background-color: #000066;
+	font-weight: bold;
+	text-transform: capitalize;
+	text-align: center;
+
+}
+.tituloFormulario2 {
+	font-family: Tahoma;
+	font-size: 14px;
+	font-weight: bold;
+	color: #000066;
+	text-align: center;
+}
+.FondoFormulario {
+
+	background-color: #E7E4E6;
+	border: thin outset;
+}
+.tablaLista {
+	font-size: 10px;
+	color: #000066;
+	text-decoration: underline;
+	font-style: normal;
+	font-weight: bold;
+	font-family: Tahoma;
+
+
+
+
+}
+.tituloFormulario3 {
+
+	font-family: Tahoma;
+	font-size: 10px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	color: #000000;
+	text-transform: none;
+}
+.tituloFormularioMensaje {
+	font-family: Tahoma;
+	font-size: 10px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: bold;
+	color: #0000FF;
+	text-transform: capitalize;
+	text-align: center;
+
+
+}
+.cambiarFuncion{
+	font-family: Tahoma;
+	font-size: 11px;
+	color: #006633;
+	font-style: normal;
+	line-height: normal;
+	font-variant: normal;
+	text-decoration: underline;
+
+
+}
+.tituloFormulario4 {
+
+
+	font-family: Tahoma;
+	font-size: 11px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: bold;
+	color: #FF0000;
+	text-transform: none;
+}

@@ -1,0 +1,118 @@
+body
+{
+    background:#000000;
+}
+nav ul
+{
+    list-style:none;
+    margin:0 0px 0 0px;
+    padding:0;
+}
+nav ul li
+{
+   font-family:Arial, Helvetica, sans-serif;
+    font-size:16px;
+    font-weight:bold;
+    margin-right:0px;
+    text-align:center;
+}
+nav ul li:hover
+{
+    /*Degradado de fondo*/
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#FFF), to( #E3E3E3));
+    /*Chrome y Safari*/
+    background-image: -moz-linear-gradient(top center, #FFF, #E3E3E3);/*Firefox*/
+    background-image: -o-linear-gradient(top, #FFF, #E3E3E3);/*Opera*/
+    background-image: linear-gradient(top, #FFF, #E3E3E3);/*Estandar por defecto*/
+    /*Sombras*/
+    -webkit-box-shadow:  1px -1px 0px #999;/*Chrome y Safari*/
+    -moz-box-shadow:  1px -1px 0px #999;/*Firefox*/
+    -o-box-shadow:  1px -1px 0px #999;/*Opera*/
+    box-shadow:  1px -1px 0px #999;/*Estandar por defecto*/
+    border:1px solid #E3E3E3;
+}
+nav ul li a
+{
+    color:#999;
+    display:block;
+    padding:10px;
+    text-decoration:none;
+    /*Transiciones*/
+    -webkit-transition: 0.4s linear all;
+    -moz-transition: 0.4s linear all;
+    -o-transition: 0.4s linear all;
+    transition: 0.4s linear all;
+}
+nav ul li a:hover 
+{
+    color:#000;
+}
+
+nav
+{    
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#FFF), to(#CCC));
+    /*Para chrome y Safari*/
+    /*Degradados*/
+    background-image: -moz-linear-gradient(top center, #FFF, #CCC);/*Para Firefox*/
+    background-image: -o-linear-gradient(top, #FFF, #CCC);/*Para Opera*/
+    background-image: linear-gradient(top, #FFF, #CCC);/*El estandar por defecto*/
+    overflow:hidden;
+    padding:0px;
+    width:110px;
+    height: 400px;
+    float: left;
+}
+div{
+	width:900px;
+	height:658px;
+	margin:auto;
+}
+header{
+	height:128px;
+	background-color:aqua;
+}
+article{
+	width:790px;
+	height:400px;
+	float:left;
+}
+footer{
+	height:70px;
+	background-color:orange;
+	clear:both;
+}
+form#myform{
+    margin: auto;
+    background: #693;
+    color: white;
+    font-size: 16px;
+    padding: 30px;
+    width: 400px;
+    border: solid 10px LightSteelBlue;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -mos-border-radius: 5px;}
+form#myform fieldset{
+    border: none;}
+form#myform input{
+    font-size: 12px;
+    background: white;
+    border:solid 1px LightSteelBlue;
+    border-radius: 3px;
+    -webkit-border-radius:3px;
+    -mos-border-radius:3px;
+    float: right;
+    margin-right: 15px;
+    width: 200px;}
+form#myform ol li{
+    line-height: 25px;
+    list-style: none;}
+form#myform [required]{
+    border: solid 1px #7ACC28;}
+input:required{
+    outline: 1px solid 7ACC28;}
+form#myform textarea{
+	width:300px;
+	height:100px;
+	overflow:scroll;	
+}

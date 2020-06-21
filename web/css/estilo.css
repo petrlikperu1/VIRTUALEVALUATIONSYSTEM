@@ -1,0 +1,73 @@
+.FONDOFORMULARIO{
+    background-color: #E7E4E6;
+    border:thin outset;   
+}
+
+.FONDOTABLA{
+    border:thin outset;
+}
+.TITULOTABLA{
+       font-size: 11px;
+       color:#FFFFFF;
+       background-color: #000066;
+       font-weight: bold;
+       text-transform: capitalize;
+       text-align: center;    
+}
+.FILATABLA1{
+    color:#000066;
+    font-family: Tahoma;
+    background-color: #D5F7FF;
+    font-size: 8pt;
+    text-align: left;
+    font-style: normal;
+}
+.FILATABLA2{
+    color:#000066;
+    font-family: Tahoma;
+    background-color: white;
+    font-size: 8pt;
+    text-align: left;
+    font-style: normal;
+}
+
+.ENTRADATEXTO{
+  background-color: #FFFFFF;
+  border-bottom: #336699 1px solid;
+  border-left:  #336699 1px solid;
+  border-right:  #336699 1px solid;
+  border-top:  #336699 1px solid;
+  color:#30608F;
+  font-family: Verdana;
+  font-size: 8pt;
+}
+.ELEGIRCOMBO{
+   border-bottom: #808080 1px solid; 
+   border-left:  #808080 1px solid; 
+   border-right:  #808080 1px solid; 
+   color:#000066;
+   font-family: Tahoma;
+   font-size: 12px;
+   font-weight: normal;
+   font-style: normal;
+   line-height: normal;
+   font-variant: normal;
+   height: 18px;    
+}
+
+.boton{
+  font-size: 10px;
+  font-family: Tahoma;
+  text-transform: none;
+  text-align: center;
+  font-weight: bold;
+  font-variant: normal;
+  color: 000066;
+}
+
+.TEXTONORMAL{    
+    color:#000066;
+    font-family: Tahoma;
+    font-size: 7.5pt;
+    font-weight: bold;    
+}

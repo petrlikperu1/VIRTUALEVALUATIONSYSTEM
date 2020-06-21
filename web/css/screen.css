@@ -1,0 +1,800 @@
+/*********************************************************/
+
+
+
+
+
+
+
+
+.input_text 
+{
+    BACKGROUND-COLOR: #ffffff;
+    BORDER-BOTTOM: #336699 1px solid;
+    BORDER-LEFT: #336699 1px solid;
+    BORDER-RIGHT: #336699 1px solid;
+    BORDER-TOP: #336699 1px solid;
+    COLOR: #30608f;
+    FONT-FAMILY: Verdana;
+    FONT-SIZE: 8pt
+}
+
+.input_text_combo 
+{
+	BORDER-BOTTOM: #808080 1px solid;
+	BORDER-LEFT: #808080 1px solid;
+	BORDER-RIGHT: #808080 1px solid;
+	BORDER-TOP: #808080 1px solid;
+	COLOR: #000066;
+	FONT-FAMILY: Tahoma;
+	FONT-SIZE: 12px;
+	font-weight: normal;
+	font-style: normal;
+	line-height: normal;
+	font-variant: normal;
+	height: 18px;
+}
+
+.input_text_combo2 
+{
+	BORDER-BOTTOM: #808080 1px solid;
+	BORDER-LEFT: #808080 1px solid;
+	BORDER-RIGHT: #808080 1px solid;
+	BORDER-TOP: #808080 1px solid;
+	COLOR: #000066;
+	FONT-FAMILY: Tahoma;
+	FONT-SIZE: 12px;
+	font-weight: normal;
+	font-style: normal;
+	line-height: normal;
+	font-variant: normal;
+	height: 100px;
+}
+
+
+.input_text_r /* input number AAV */
+{
+    BACKGROUND-COLOR: #ffffff;
+    BORDER-BOTTOM: #808080 1px solid;
+    BORDER-LEFT: #808080 1px solid;
+    BORDER-RIGHT: #808080 1px solid;
+    BORDER-TOP: #808080 1px solid;
+    COLOR: black;
+    FONT-FAMILY: Verdana;
+    FONT-SIZE: 8pt;
+    text-align: RIGHT;
+}
+/* Textos */
+
+.text_normal
+{
+	COLOR: BLACK;
+	FONT-FAMILY: Tahoma;
+	FONT-SIZE: 7.5pt;
+    FONT-WEIGHT: bold;
+}
+
+
+.text_normal_1
+{
+	COLOR: #000099;
+	FONT-FAMILY: Tahoma;
+	FONT-SIZE: 7.5pt;
+    FONT-WEIGHT: bold;
+}
+
+
+.text_mensaje
+{
+	COLOR: RED;
+	FONT-FAMILY: Tahoma;
+	FONT-SIZE: 7.5pt	           
+}
+
+
+.menu
+{
+	COLOR: #808080;
+	FONT-FAMILY: Tahoma;
+    FONT-SIZE: 8pt;
+	FONT-WEIGHT:bold;
+		           
+}
+
+.text_menu
+{
+    FONT-FAMILY: Verdana, Helvetica, sans-serif;
+    FONT-SIZE: 8pt;
+    COLOR: NAVY
+}
+
+
+
+.fila_impar /* ex fila */
+{
+	COLOR: #000066;
+	BACKGROUND-COLOR: white;
+	FONT-FAMILY: Tahoma;
+	FONT-SIZE: 8pt;
+	TEXT-ALIGN: left;
+	text-transform: none;
+
+}
+
+
+.fila_par /* ex fila1 */
+{
+	COLOR: #000066;
+	FONT-FAMILY: Tahoma;
+	BACKGROUND-COLOR:#D5F7FF;
+	FONT-SIZE: 8pt;
+	TEXT-ALIGN: left;
+	text-transform: none;
+	font-style: normal;
+
+}
+
+
+.text_fila_3 /* ex fila1 */
+{
+	COLOR: white;
+	FONT-FAMILY: Tahoma;
+    BACKGROUND-COLOR:red;
+	FONT-SIZE: 7.5pt;
+	TEXT-ALIGN: center
+}
+
+
+/* USADO */
+.text_izq_columna/* ex fila */
+{
+    TEXT-ALIGN: left;
+}
+
+
+/* USADO */
+.text_der_columna/* ex fila */
+{
+    TEXT-ALIGN: right;
+}
+
+
+/* Titulos */
+
+.text_titulo_1 /* ex titulo3 */
+{
+	FONT-FAMILY: Tahoma;
+	FONT-SIZE: 7.5pt;
+	COLOR: "ff0000";
+	TEXT-DECORATION: none;
+}
+
+.text_titulo_2 /* ex titulo4 */
+{
+	COLOR: #000000;
+	FONT-FAMILY: Tahoma;
+	FONT-SIZE: 8pt;
+	FONT-WEIGHT: bold;
+	TEXT-ALIGN: left;
+	
+}
+
+
+
+.text_titulo_3 /* ex titulo4 */
+{
+	COLOR: black;
+	FONT-FAMILY: Tahoma;
+	FONT-SIZE: 7.5pt;
+	FONT-WEIGHT: bold
+	
+}
+ 
+.text_titulo_4 /* ex titulo2 (no usado) */
+{
+	COLOR: #000000;
+	FONT-FAMILY: Tahoma;
+	FONT-SIZE: 7.5pt;
+	FONT-WEIGHT: bold
+}
+
+.text_titulo_5 /* ex titulo2 (no usado) */
+{
+	COLOR: black;
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+	FONT-SIZE: 7.5pt;
+	FONT-WEIGHT: bold
+}
+
+.text_titulo_6 /* ex titulo 3A (no usado) */
+{
+	COLOR: black;
+	FONT-FAMILY: Arial;
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 8pt
+}
+
+/* Tablas */
+
+.tabla_1 /* ex tabla1*/
+{
+	BACKGROUND-COLOR: WHITE;
+}
+
+
+.tabla_3 /* ex tabla */
+{
+	BACKGROUND-COLOR: #8EEE9F;
+}
+
+
+.tabla_4  {
+	BACKGROUND-COLOR: "#c0c0c0";
+	TEXT-ALIGN: center
+}
+
+
+
+.text_titulo_cabecera
+{
+    COLOR: #808080;
+	FONT-FAMILY: Arial;
+	FONT-SIZE: 18pt;
+	
+}	
+.texttotales {
+	font-size: 10px;
+	font-style: normal;
+	color: #000099;
+	line-height: normal;
+	text-decoration: overline;
+	font-weight: bold;
+}
+.FondoTabla {
+	border: thin outset;
+
+
+}
+.tituloFormulario {
+	font-family: Tahoma;
+	font-size: 11px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: bold;
+	color: #000066;
+	text-transform: capitalize;
+
+}
+.boton {
+	font-size: 10px;
+	font-family: Tahoma;
+	text-transform: none;
+	text-align: center;
+	font-weight: bold;
+	font-variant: normal;
+	color: #000066;
+
+
+
+
+
+}
+.tituloTabla {
+
+	font-size: 11px;
+	color: #FFFFFF;
+	background-color: #000066;
+	font-weight: bold;
+	text-transform: capitalize;
+	text-align: center;
+
+}
+.tituloFormulario2 {
+	font-family: Tahoma;
+	font-size: 14px;
+	font-weight: bold;
+	color: #000066;
+	text-align: center;
+}
+.FondoFormulario {
+
+	background-color: #E7E4E6;
+	border: thin outset;
+}
+.tablaLista {
+	font-size: 10px;
+	color: #000066;
+	text-decoration: underline;
+	font-style: normal;
+	font-weight: bold;
+	font-family: Tahoma;
+
+
+
+
+}
+.tituloFormulario3 {
+
+	font-family: Tahoma;
+	font-size: 5px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	color: #000000;
+	text-transform: none;
+}
+.tituloFormularioMensaje {
+	font-family: Tahoma;
+	font-size: 10px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: bold;
+	color: #0000FF;
+	text-transform: capitalize;
+	text-align: center;
+
+
+}
+.cambiarFuncion{
+	font-family: Tahoma;
+	font-size: 11px;
+	color: #006633;
+	font-style: normal;
+	line-height: normal;
+	font-variant: normal;
+	text-decoration: underline;
+
+
+}
+.tituloFormulario4 {
+
+
+	font-family: Tahoma;
+	font-size: 11px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: bold;
+	color: #FF0000;
+	text-transform: none;
+}
+
+/**********************************************************/
+
+
+BODY{
+	COLOR: black;
+	FONT-FAMILY: Arial;
+	background-color: #E7E4E6;
+
+}
+
+body, input, select,td,textarea{ 
+	font-family:Verdana, Geneva, Arial, Helvetica, sans-serif; 
+	font-size: 11px;
+}
+h1, h2, h3, h4, h5, h6, p, strong, div, form, acronym, label, table, td, th, span, a, hr, code, pre, hr {
+	margin:0;
+	padding:0;
+	font-size: 1em;
+	background-repeat:no-repeat;
+	list-style-type:none;
+}
+
+a, a:visited, a:hover { 
+	color:#666; text-decoration:none; 
+}
+a:hover {
+	text-decoration: underline;
+}
+img{ 
+	border:none;
+}
+hr {
+	height: 1px;
+	color: #000;
+	clear:both;
+}
+textarea {
+	width:80%;
+	height:200px;
+}
+dt {
+	font-weight: bold;
+}
+.clear {
+	clear: both;
+}
+h1 {
+	font-size: 2em;
+}
+h1 a{
+	color: #000;
+}
+div#header {
+	background-color: #fea;
+	border-top: 1px solid #000;
+	border-bottom: 1px solid #000;
+	padding: 20px 10px 30px 15px;
+	margin: 10px 5% 20px 5%;
+}
+div#header ul{
+	margin: 10px 0 0 0;
+}
+div#header ul li{
+	list-style-type: none;
+	float: left;
+	padding: 0 10px 0 0;
+	font-weight: bold;
+}
+div#header ul li a{
+	display: block;
+	color: #f00;
+	border-left: 1px solid red;
+	padding-left: 5px;
+}
+div#header ul li a:hover{
+	border-left: 1px solid #000;
+}
+
+h2 {
+	font-size: 1.2em;
+	margin: 10px 0 10px 0;
+}
+
+h2 {
+	font-size: 1.1em;
+	margin: 10px 0 5px 0;
+}
+
+p {
+	margin: 0 0 10px 0;
+}
+
+acronym {
+	border-bottom: 1px dashed #000;
+	cursor: help;
+}
+
+
+div#body {
+	margin: 0 5% 20px 5%;
+	padding: 20px 20px 20px 20px;
+	border: 1px dashed #666;
+}
+
+div#validxhtml {
+	float: right;
+	background-color: #eee;
+	border: 1px dotted #999;
+	padding: 2px;
+	margin: 5px;
+	width:100px;
+	text-align: center;
+}
+div#footer {
+	
+	border-top: 0px solid #666; 
+	padding: 5px 5px 5px 5px;
+	text-align:right;
+}
+
+div#footer span {
+	float: left;
+}
+
+
+ul#stylelist {
+	margin:0 0 30px 0;
+}
+
+ul#stylelist li {
+	list-style-type: none;
+	float:left;
+	width:100px;
+	border: 1px solid #ccc;
+	background-color: #eee;
+	padding:2px;
+	margin-right: 2px;
+}
+/* ***************  */
+
+
+table {
+	
+	border: thin none;
+	margin: 0px 0;
+}
+
+
+thead tr {
+	font-size: 11px;
+	/*color: #FFFFFF;*/
+	background-color: lightskyblue;
+	font-weight: normal;
+	text-transform: capitalize;
+	text-align: center;
+	font-family: Tahoma;
+}
+
+th.sorted {
+    background-color: orange;
+    font-family: Tahoma;
+	font-size: 11px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-transform: capitalize;
+    
+    
+}
+th a, th a:visited {
+	font-family: Tahoma;
+	font-size: 11px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-transform: capitalize;
+}
+th a:hover {
+  text-decoration: underline;
+  font-family: Tahoma;
+	font-size: 11px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-transform: capitalize;
+}
+
+
+
+th.sorted a, th.sortable a {
+	background-position: right;
+	display: block;
+	width: 100%;
+	font-family: Tahoma;
+	font-size: 11px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-transform: capitalize;
+
+}
+th.sortable a {
+	background-image: url(../img/arrow_off.png);
+	font-family: Tahoma;
+	font-size: 11px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-transform: capitalize;
+
+}
+th.order1 a {
+	background-image: url(../img/arrow_down.png);
+	font-family: Tahoma;
+	font-size: 11px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-transform: capitalize;
+
+}
+th.order2 a {
+	background-image: url(../img/arrow_up.png);
+	font-family: Tahoma;
+	font-size: 11px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-transform: capitalize;
+	
+	
+}
+tr.odd {
+  COLOR: #000066;
+	FONT-FAMILY: Tahoma;
+	BACKGROUND-COLOR:#D5F7FF;
+	FONT-SIZE: 8pt;
+	TEXT-ALIGN: left;
+	text-transform: none;
+	font-style: normal; 
+
+}
+tr.tableRowEven, tr.even {
+COLOR: #000066;
+	BACKGROUND-COLOR: white;
+	FONT-FAMILY: Tahoma;
+	FONT-SIZE: 8pt;
+	TEXT-ALIGN: left;
+	text-transform: none;
+  
+}
+
+ul#showsource {
+	float: right;
+	background-color: #eee;
+	border: 1px dotted #999;
+	padding: 2px 4px 2px 4px;
+	margin: 5px;
+	width:100px;
+	list-style-type: none;
+}
+
+
+/* test styles */
+table.its thead tr {
+  background-color: #69c;
+}
+table.its tr.even {
+  COLOR: #000066;
+	BACKGROUND-COLOR: white;
+	FONT-FAMILY: Tahoma;
+	FONT-SIZE: 8pt;
+	TEXT-ALIGN: left;
+	text-transform: none;
+}
+
+table.mars thead tr {
+  background-color: #9c9;
+}
+table.mars tr.even {
+  COLOR: #000066;
+	BACKGROUND-COLOR: white;
+	FONT-FAMILY: Tahoma;
+	FONT-SIZE: 8pt;
+	TEXT-ALIGN: left;
+	text-transform: none;
+}
+table.mars tr.odd {
+COLOR: #000066;
+	FONT-FAMILY: Tahoma;
+	BACKGROUND-COLOR:#D5F7FF;
+	FONT-SIZE: 8pt;
+	TEXT-ALIGN: left;
+	text-transform: none;
+	font-style: normal; 
+}
+
+
+table.simple thead tr {
+  background-color: #eee;
+}
+table.simple tr.even {
+ COLOR: #000066;
+	BACKGROUND-COLOR: white;
+	FONT-FAMILY: Tahoma;
+	FONT-SIZE: 8pt;
+	TEXT-ALIGN: left;
+	text-transform: none;
+}
+
+table.simple {
+	border: 1px solid #ccc;
+	border-collapse: collapse;
+}
+
+table.simple td,table.simple th{
+	border: 1px solid #ccc;
+}
+
+
+
+table.nocol tbody td,table.nocol tbody th{
+	border-left: none;
+	border-right: none;
+}
+
+
+
+
+table.report td, table.report th{
+	font:   menu;
+}
+table.report th{
+
+	background:   buttonface;
+	border-width: 0px;
+	border-style: solid;
+	border-color: threedhighlight threedshadow threedshadow threedhighlight;
+	cursor:       hand;
+	}
+table.report idcol {
+	background: buttonface;
+}
+
+table.report tr.even{
+	COLOR: #000066;
+	BACKGROUND-COLOR: white;
+	FONT-FAMILY: Tahoma;
+	FONT-SIZE: 8pt;
+	TEXT-ALIGN: left;
+	text-transform: none;
+}
+table.report tbody {
+	height: 100px;
+	overflow: auto;
+}
+
+table.report {
+	height: 120px;
+	overflow: auto;
+}
+
+table.report tbody tr{
+	height: 10px;
+}
+
+table.mark td.tableCellError {
+	background-color: #d00;
+	color: #fff;
+}
+
+table.sublist {
+	margin: 0 0 0 0;
+	width: 100%;
+}
+table.sublist td, table.sublist th {
+	width: 50%;
+}
+div.exportlinks {
+	background-color: #E7E4E6;
+	border: 1px dotted #999;
+	padding: 2px 4px 2px 4px;
+	margin: -0px 0 10px 0;
+	width: 75%;
+}
+
+span.export {
+	padding: 0 4px 1px 20px;
+	display:inline; display:inline-block;
+	cursor: pointer;
+}
+
+span.excel {
+	background-image: url(../img/ico_file_excel.png);
+}
+span.csv {
+	background-image: url(../img/ico_file_csv.png);
+}
+span.xml {
+	background-image: url(../img/ico_file_xml.png);
+}
+span.pdf {
+	background-image: url(../img/ico_file_pdf.png);
+}
+
+span.pagebanner {
+	background-color: #E7E4E6;
+	border: 1px dotted #999;
+	padding: 2px 4px 2px 4px;
+	width: 75%;
+	margin-top: 10px;
+	display:block;
+	border-bottom: none;
+}
+
+span.pagelinks {
+	background-color:#E7E4E6;
+	border: 1px dotted #999;
+	padding: 2px 4px 2px 4px;
+	width: 75%;
+	display:block;
+	border-top: none;
+	margin-bottom: -0px;
+}
+
+
+
+
+		
+
+
+table.simple td.textRed {color: #b11;}
+

@@ -1,0 +1,22 @@
+             
+             #contenedor
+              {
+              width:1450px;
+	      height:1000px;
+	      
+              }
+              #cabecera{ width:10%;height:19%;}
+              #menu{ float:left;width:15%;height:auto;min-width: 15%;min-height: 100% }
+              #contenido{
+                  float:left;width:85%;height:100%;
+              
+              background-color: #00FFFF;
+  
+              overflow: scroll;
+              
+              
+              
+              }
+              #pie{clear:both;height:10%;}
+              
+             

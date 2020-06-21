@@ -1,0 +1,173 @@
+@import url(http://fonts.googleapis.com/css?family=Paytone+One);
+@import url(http://fonts.googleapis.com/css?family=Poiret+One);
+@import url(http://fonts.googleapis.com/css?family=Montserrat:700);
+body{
+	background: #3B4551;
+}
+#contenedor{
+	width: 500px;
+	height: auto;
+	margin: 0 auto;
+	background: #fff;
+	-webkit-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.49);
+	-moz-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.49);
+	-o-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.49);
+	-ms-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.49);
+	box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.49);
+	-webkit-border-radius: 15px 15px 0px 0px;
+	-moz-border-radius: 15px 15px 0px 0px;
+	-o-border-radius: 15px 15px 0px 0px;
+	-ms-border-radius: 15px 15px 0px 0px;
+	border-radius: 15px 15px 0px 0px;
+}
+header{
+	width: 100%;
+	height: auto;
+	background: url(../../imagenes/responsive/banner_psn.png);
+	-webkit-border-radius: 15px 15px 0px 0px;
+	-moz-border-radius: 15px 15px 0px 0px;
+	-o-border-radius: 15px 15px 0px 0px;
+	-ms-border-radius: 15px 15px 0px 0px;
+	border-radius: 15px 15px 0px 0px;
+}
+h1{
+	width: 100%;
+	text-align: center;
+	margin: 0;
+	padding: 8px 0;
+	background: rgba(255, 212, 25, 1);
+	color: #fff;
+	text-shadow:0px 0px 15px rgba(0, 0, 0, 0.27);
+	font-size: 28px;
+	border-bottom: solid 5px rgba(255, 198, 0, 1);
+	font-family: 'Montserrat', sans-serif;
+	-webkit-border-radius: 15px 15px 0px 0px;
+	-moz-border-radius: 15px 15px 0px 0px;
+	-o-border-radius: 15px 15px 0px 0px;
+	-ms-border-radius: 15px 15px 0px 0px;
+	border-radius: 15px 15px 0px 0px;
+}
+#logo{
+	width: 100%;
+	height: auto;
+	display: inline-block;
+	float: left;
+	text-align: center;
+}
+#logo img{
+	width: 20%;
+	height: auto;
+	padding: 25px 0;
+}
+#banner_titulo{
+	width: auto;
+	height: auto;
+	display: inline-block;
+	background: rgba(23, 23, 23, 0.62);
+}
+#banner_titulo h2{
+	color: #fff;
+	font-family: 'Paytone One', sans-serif;
+	text-shadow:0px 0px 15px black;
+	padding: 0px 25px;
+	font-size: 20px;
+}
+
+footer{
+	width: 100%;
+	text-align: center;
+	background: #2C2C2C;
+	padding: 10px 0;
+}
+footer span{
+	color: #fff;
+	font-family: 'Poiret One', cursive;
+}
+
+h3{
+	margin: 0;
+	width: 100%;
+	padding: 15px 0;
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	color:rgba(69, 69, 69, 1);
+}
+#contenedor_formulario{
+	width: 100%;
+	text-align: center;
+}
+#commentForm{
+	width: 60%;
+	display: inline-block;
+	padding: 15px 15px 30px 15px;
+}
+label,input{
+	display: inline-block;
+	text-align: left;
+	font-family: 'Montserrat', sans-serif;
+	color: rgba(69, 69, 69, 1);
+}
+label{
+	width: 100%;
+	padding: 5px;
+}
+
+input{
+	width: 95%;
+}
+#boton{
+	text-align: center;
+	font-size: 18px;
+	margin-top: 15px;
+	padding: 5px 0;
+	width: 98%;
+	background: rgba(255, 170, 21, 1);
+	color:#fff;
+	border: none;
+}
+#boton:hover{
+	background: #FFD419;
+}
+
+
+/*MOBILE*/
+@media (max-width: 500px) {
+	body{
+		margin: 0;
+		padding: 0;
+	}
+	#contenedor{
+		width: 100%;
+	}
+	#logo{
+		width: 100%;
+		height: auto;
+	
+
+	}
+	#logo img{
+		width: 30%;
+		padding: 15px;
+
+	}
+	#banner_titulo{
+		width: 100%;
+		height: auto;
+	}
+	h1{
+		background: black;
+		-webkit-border-radius: 0;
+		-moz-border-radius: 0x;
+		-o-border-radius: 0;
+		-ms-border-radius: 0;
+		border-radius: 0;
+		font-size: 90%;
+	}
+	#banner_titulo h2{
+		font-size: 100%;
+	}
+	#commentForm{
+	width: 70%;
+	}
+}
+

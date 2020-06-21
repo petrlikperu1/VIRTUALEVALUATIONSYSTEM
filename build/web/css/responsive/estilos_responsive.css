@@ -1,0 +1,210 @@
+@import url(http://fonts.googleapis.com/css?family=Paytone+One);
+@import url(http://fonts.googleapis.com/css?family=Poiret+One);
+@import url(http://fonts.googleapis.com/css?family=Montserrat:700);
+body{
+	background: #3B4551;
+}
+#contenedor{
+	width: 900px;
+	height: auto;
+	margin: 0 auto;
+	background: #fff;
+	-webkit-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.49);
+	-moz-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.49);
+	-o-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.49);
+	-ms-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.49);
+	box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.49);
+	-webkit-border-radius: 15px 15px 0px 0px;
+	-moz-border-radius: 15px 15px 0px 0px;
+	-o-border-radius: 15px 15px 0px 0px;
+	-ms-border-radius: 15px 15px 0px 0px;
+	border-radius: 15px 15px 0px 0px;
+}
+header{
+	width: 100%;
+	height: auto;
+	background: url(../../imagenes/responsive/banner_psn.png);
+	-webkit-border-radius: 15px 15px 0px 0px;
+	-moz-border-radius: 15px 15px 0px 0px;
+	-o-border-radius: 15px 15px 0px 0px;
+	-ms-border-radius: 15px 15px 0px 0px;
+	border-radius: 15px 15px 0px 0px;
+}
+h1{
+	width: 100%;
+	text-align: center;
+	margin: 0;
+	padding: 8px 0;
+	background: rgba(255, 212, 25, 1);
+	color: #fff;
+	text-shadow:0px 0px 15px rgba(0, 0, 0, 0.27);
+	font-size: 28px;
+	border-bottom: solid 5px rgba(255, 198, 0, 1);
+	font-family: 'Montserrat', sans-serif;
+	-webkit-border-radius: 15px 15px 0px 0px;
+	-moz-border-radius: 15px 15px 0px 0px;
+	-o-border-radius: 15px 15px 0px 0px;
+	-ms-border-radius: 15px 15px 0px 0px;
+	border-radius: 15px 15px 0px 0px;
+}
+#logo{
+	width: 200px;
+	height: 200px;
+	background: transparent;
+	display: inline-block;
+	float: left;
+	text-align: center;
+}
+#logo img{
+	width: 70%;
+	height: auto;
+	padding: 25px 0;
+}
+#banner_titulo{
+	width: 700px;
+	height: 200px;
+	
+	display: inline-block;
+}
+#banner_titulo h2{
+	color: #fff;
+	font-family: 'Paytone One', sans-serif;
+	text-shadow:0px 0px 15px black;
+	padding: 25px;
+	font-size: 25px;
+}
+nav{
+	width: 100%;
+	height: 300px;
+	padding-top: 40px;
+	background: transparent;
+	text-align: center;
+	display: inline-block;
+}
+nav ul{
+	display: inline-block;
+	padding: 0;
+	list-style-type: none;
+}
+nav ul li{
+	width: 200px;
+	height: auto;
+	text-align: center;
+	display: inline-block;
+	
+	float: left;
+	background: transparent;
+}
+nav ul li a{
+	height: 230px;
+	text-decoration: none;
+	color: rgba(59, 59, 59, 1);
+	font-family: 'Montserrat', sans-serif;
+	display: inline-block;
+	-webkit-transition: 0.5s; 
+	-moz-transition: 0.5s; 
+	-o-transition: 0.5s; 
+	-ms-transition: 0.5s;
+	transition: 0.5s;
+
+}
+nav ul li a:hover{
+	background: rgba(228, 228, 228, 1);
+	color: rgba(30, 30, 30, 1);
+	-webkit-transition: 1s; 
+	-moz-transition: 1s; 
+	-o-transition: 1s; 
+	-ms-transition: 1s;
+	transition: 1s;
+	-webkit-transform: scale(1.07);
+	-moz-transform: scale(1.07);
+	-o-transform: scale(1.07);
+	-ms-transform: scale(1.07);
+	transform: scale(1.07);border-bottom: solid rgba(255, 153, 0, 1);
+}
+nav ul li a img{
+	width: 150px;
+	height: 150px;
+}
+footer{
+	width: 100%;
+	text-align: center;
+	background: #2C2C2C;
+	padding: 10px 0;
+}
+footer span{
+	color: #fff;
+	font-family: 'Poiret One', cursive;
+}
+
+
+/*MOBILE*/
+@media (max-width: 500px) {
+	body{
+		margin: 0;
+		padding: 0;
+	}
+	#contenedor{
+		width: 100%;
+	}
+	#logo{
+		width: 100%;
+		height: auto;
+		background: #FFE800;
+
+	}
+	#logo img{
+		width: 40%;
+		padding: 0;
+
+	}
+	#banner_titulo{
+		width: 100%;
+		height: auto;
+	}
+	h1{
+		background: black;
+		-webkit-border-radius: 0;
+		-moz-border-radius: 0x;
+		-o-border-radius: 0;
+		-ms-border-radius: 0;
+		border-radius: 0;
+		font-size: 90%;
+	}
+	#banner_titulo h2{
+		font-size: 100%;
+	}
+	nav{
+		padding-top: 0;
+		height: auto;
+
+		text-align: center;
+	}
+	nav ul{
+		width: 100%;
+	}
+	nav ul li{
+			float: none;
+	}
+	nav ul li a{
+		-webkit-transition: mome; 
+		-moz-transition: mome; 
+		-o-transition: mome; 
+		-ms-transition: mome;
+		transition: mome;
+	}
+	nav ul li a:hover{
+		-webkit-transition: mome; 
+		-moz-transition: mome; 
+		-o-transition: mome; 
+		-ms-transition: mome;
+		transition: mome;
+		-webkit-transform: scale(1);
+		-moz-transform: scale(1);
+		-o-transform: scale(1);
+		-ms-transform: scale(1);
+		transform: scale(1);
+		border-bottom:none;
+	}
+}
+
