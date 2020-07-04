@@ -17,40 +17,7 @@
         <link rel="stylesheet" href="<%=request.getContextPath()%>/css/bootstrap.min_1.css">
         <script src="<%=request.getContextPath()%>/js/bootstrap.min1.js" ></script>        
         
-        <script>
-           
-            function entrar()
-            {
-              
-               var txtusu = document.getElementById('txtusu').value;
-               var txtcla = document.getElementById('txtcla').value;
-
-           
-                if (txtusu == '')
-                {   jAlert("Ingresar el Usuario por favor!!!");
-                    document.getElementById('txtusu').focus();
-                    return;
-                }
-                else
-                {
-                    if (txtcla == '')
-                    {   jAlert("Ingresar el Password por favor!!!");
-                        document.getElementById('txtcla').focus();
-                        return;
-                    }
-                    else
-                    {  
-                        document.form.action="<%=request.getContextPath()%>/AlumnoServlet";
-                        document.form.method="POST";
-                        document.form.op.value="9";
-                        document.form.submit();
-                    }
-                }
-            
-            }
-
-        </script>
-        
+        <script src="<%=request.getContextPath()%>/js/javascript.js" type="text/javascript"></script>
         
         
         
@@ -93,7 +60,7 @@
 					<hr>
 					<div class="form-group text-center">
 						
-                                                <button type="button" class="btn btn-primary"   onclick="entrar()">
+                                                <button type="button" class="btn btn-primary"   onclick="validarAccesoAlumno('<%=request.getContextPath()%>')">
 							<img src="<%=request.getContextPath()%>/imagenes/candado1.png"     alt="Configuracion"> Iniciar Sesión
 						</button>
 					</div>
